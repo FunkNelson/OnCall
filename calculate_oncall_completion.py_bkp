@@ -1,0 +1,3 @@
+import oncall
+
+print oncall.calculate_oncall_completion(oncall.total_seconds, oncall.elapsed_seconds), "% complete with on-call shift"
