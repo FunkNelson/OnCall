@@ -1,7 +1,15 @@
 import datetime
 
-#start of on-call shift in UTC (YYYY, MM, DD, HH, MM)  Hour and minute are always 14 and 00
-oncall_start = datetime.datetime(2017, 8, 26, 13, 00)
+#date parameters
+year = 2017
+month = 8
+day = 26
+hour = 13
+minute = 00
+
+
+#start of on-call shift in UTC (YYYY, MM, DD, HH, MM)  Hour and minute are always 13 and 00
+oncall_start = datetime.datetime(year, month, day, hour, minute)
 
 #length of shift
 days_on_call = 1
