@@ -2,7 +2,7 @@ import datetime
 
 #date parameters
 year = 2017
-month = 8
+month = 08
 day = 26
 hour = 13
 minute = 00
